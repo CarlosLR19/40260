@@ -1,0 +1,19 @@
+<!DOCTYPE cafe [
+
+<!ELEMENT cafe (iniciar, pasos+, finalizar)>
+
+<!ELEMENT iniciar EMPTY>
+
+<!ELEMENT pasos (agregar | hervir | servir)>
+
+<!ELEMENT agregar EMPTY>
+<!ATTLIST agregar ingrediente CDATA #REQUIRED>
+
+<!ELEMENT hervir EMPTY>
+<!ATTLIST hervir tiempo CDATA #REQUIRED>
+
+<!ELEMENT servir EMPTY>
+
+<!ELEMENT finalizar EMPTY>
+
+]>

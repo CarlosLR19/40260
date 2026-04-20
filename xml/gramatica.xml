@@ -1,0 +1,23 @@
+<cafe>
+
+    <iniciar/>
+
+    <pasos>
+        <agregar ingrediente="agua"/>
+    </pasos>
+
+    <pasos>
+        <hervir tiempo="5min"/>
+    </pasos>
+
+    <pasos>
+        <agregar ingrediente="cafe"/>
+    </pasos>
+
+    <pasos>
+        <servir/>
+    </pasos>
+
+    <finalizar/>
+
+</cafe>
